@@ -1,0 +1,72 @@
+.my-stories-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.stories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.story-item {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.story-item-content {
+  flex: 1;
+}
+
+.story-item-content h3 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.story-status {
+  margin-bottom: 10px;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status-badge.published {
+  background-color: #28a745;
+  color: white;
+}
+
+.status-badge.draft {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.story-item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.no-stories {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.no-stories p {
+  margin-bottom: 20px;
+  color: #7f8c8d;
+  font-size: 18px;
+}
+

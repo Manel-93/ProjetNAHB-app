@@ -1,0 +1,30 @@
+.story-detail {
+  background: white;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.story-detail h1 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.story-meta {
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+.story-description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.story-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
